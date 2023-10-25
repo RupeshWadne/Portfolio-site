@@ -1,0 +1,84 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: #5272F2;
+}
+
+.home{
+  display: flex;
+  width: 100%;
+  padding: 50px;
+}
+
+.home_section{
+  width: 100%;
+  height: 100%;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-left: 30px;
+}
+
+.frame {
+  width: fit-content;
+  color: #001524;
+}
+
+.frame .img {
+  width: 65%;
+  height: 65%;
+  object-fit: cover;
+  margin-left: 200px;
+  margin-top: 60px;
+  border: 2px solid ;
+  box-shadow: 0 0 0 2px #001524, 25px 25px 0 0 #001524;
+}
+
+.arrow {
+  filter: invert(100%);
+  width: 60px;
+  transform: rotate(-20deg);
+}
+
+.textContainer {
+  position: relative;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  transition: transform 0.4s;
+}
+
+.textContainer p {
+  font-size: 8vw;
+  line-height: 8vw;
+  font-weight: 700;
+  margin: 0px;
+  color: #EEEDED;
+  transition: all 0.4s;
+  margin-bottom: 40px;
+  text-shadow: 6px 6px #EE6983;
+}
+
+.textContainer .secondary {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transform: rotateX(-90deg) translateY(3.5vw);
+  transform-origin: bottom center;
+}
+
+.textContainer:hover {
+  transform: rotateX(90deg);
+}
+
+.textContainer:hover .primary {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.textContainer:hover .secondary {
+  opacity: 1;
+}

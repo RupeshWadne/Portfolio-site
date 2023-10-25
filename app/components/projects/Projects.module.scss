@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.body{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .body h1{
+    font-weight: 700;
+    color: white;
+    font-size: larger;
+    margin: 20px;
+}

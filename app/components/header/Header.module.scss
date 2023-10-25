@@ -1,0 +1,12 @@
+.header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    mix-blend-mode: lighten;
+    z-index: 1;
+    
+}
