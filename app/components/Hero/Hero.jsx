@@ -72,11 +72,12 @@ export default function Hero() {
               <p style={{ marginLeft: '-10px', position: 'relative', }}>(future founder 🚀🚀)</p>
               <img style={{transform: "rotate(70deg)"}} className={styles.arrow} src="curved-arrow.svg" />
             </div>
-            <img
+            <Image
               className={styles.img}
-              width={500}
-              height={500}
-              src={`/portfolio.jpeg`}
+              quality={100}
+              width={800}
+              height={800}
+              src={`/Portfolio.jpeg`}
               alt="profile"
             />
           </div>
