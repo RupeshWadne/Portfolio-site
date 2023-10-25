@@ -78,6 +78,7 @@ export default function Hero() {
               width={800}
               height={800}
               src={`/portfolio.jpeg`}
+              alt="profile"
             />
           </div>
         </div>
