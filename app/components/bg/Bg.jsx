@@ -80,7 +80,12 @@ const Column = ({ images, y }) => {
       {images.map((src, i) => {
         return (
           <div key={i} className={styles.imageContainer}>
-            <Image width={500} height={500}  src={`/assets/${src}`} alt="image" />
+            <Image
+              width={500}
+              height={500}
+              src={`/assets/${src}`}
+              alt="image"
+            />
           </div>
         )
       })}
