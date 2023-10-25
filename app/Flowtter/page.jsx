@@ -21,7 +21,7 @@ export default function Page() {
               Flowtter
             </h1>
             <p>
-            Introducing the DApp that emerged from my participation in LearnWeb3DAO's hackathon—a groundbreaking decentralized social media platform built on the Flow Blockchain. This innovative platform allows users to create accounts and post content just like traditional web2 social media platforms. However, it goes a step further by seamlessly integrating decentralized features. Users can not only engage with posts through comments and likes but also, uniquely, purchase posts if the creators choose to sell them. This transformative approach redefines the way we interact with content, offering a decentralized, user-centric, and economically empowering social media experience.
+            Introducing the DApp that emerged from my participation in LearnWeb3DAO&apos;s hackathon—a groundbreaking decentralized social media platform built on the Flow Blockchain. This innovative platform allows users to create accounts and post content just like traditional web2 social media platforms. However, it goes a step further by seamlessly integrating decentralized features. Users can not only engage with posts through comments and likes but also, uniquely, purchase posts if the creators choose to sell them. This transformative approach redefines the way we interact with content, offering a decentralized, user-centric, and economically empowering social media experience.
             </p>
             <div style={{display: "flex", padding: "10px"}}>
               <Link href="https://flowtter.vercel.app/" target="_blank" >

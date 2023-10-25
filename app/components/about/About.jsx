@@ -29,14 +29,14 @@ export default function Home() {
             setIsHovered(false)
           }}
         >
-          I'm diving into open-source web3 projects, crafting solutions for
+          I&apos;m diving into open-source web3 projects, crafting solutions for
           real-world issues, and on the lookout for new opportunities.
         </p>
       </motion.div>
 
       <div className={styles.body}>
         <p>
-          I'm a <span>Web3/Blockchain </span> Full-stack Developer with strong
+          I&apos;m a <span>Web3/Blockchain </span> Full-stack Developer with strong
           focus on developing high quality & impactful Decentralized
           Applications.
         </p>
