@@ -74,10 +74,9 @@ export default function Hero() {
             </div>
             <Image
               className={styles.img}
-              quality={100}
-              width={800}
-              height={800}
-              src={`portfolio.jpeg`}
+              width={500}
+              height={500}
+              src={`/portfolio.jpeg`}
               alt="profile"
             />
           </div>
