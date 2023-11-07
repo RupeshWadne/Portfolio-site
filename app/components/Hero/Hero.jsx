@@ -27,6 +27,7 @@ export default function Hero() {
   }
 
   return (
+    <main className={styles.main}>
     <div
       onMouseMove={(e) => {
         manageMouseMove(e)
@@ -84,6 +85,7 @@ export default function Hero() {
         </div>
       </div>
     </div>
+    </main>
   )
 }
 
@@ -95,3 +97,4 @@ function Text3d({ primary, secondary, color }) {
     </div>
   )
 }
+

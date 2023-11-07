@@ -9,6 +9,7 @@ import Skills from './components/skills/Skills';
 import Projects from './components/projects/Projects';
 import Links from './components/links/Links';
 import Bg from "./components/bg/Bg"
+import Footer from './components/footer/Footer';
 
 export default function Home() {
   const stickyElement = useRef(null);
@@ -23,6 +24,7 @@ export default function Home() {
       <Bg />
       <Projects />
       <Links />
+      <Footer />
     </main>
   )
 }
