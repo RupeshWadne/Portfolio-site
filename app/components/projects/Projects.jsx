@@ -20,7 +20,7 @@ export const projectsData = [
         image: Work7,
         title: "Fast Reach",
         location: "FastReach",
-        category: "Web3",
+        category: "Next.js - TailwindCSS - Airstack - XMTP",
         color: "#8C8C8C",
       },
       {
@@ -28,24 +28,24 @@ export const projectsData = [
         image: Work8,
         title: "Flowtter",
         location: "Flowtter",
-        category: "Web3",
-        color: "#000000",
+        category: "Cadence - Flow-Blockchain - Next.js - TailwindCSS",
+        color: "#43766C",
       },
       {
         id: 3,
         image: Work1,
         title: "GOD NFT MARKETPLACE",
         location: "GodNft",
-        category: "Web3",
-        color: "#000000",
+        category: `Solidity - Next.js - TailwindCSS - Hardhat - Ethers.js - IPFS`,
+        color: "#192655",
       },
       {
         id: 4,
         image: Work2,
         title: "LENS SOCIAL MEDIA",
         location: "Lens",
-        category: "Web3",
-        color: "#8C8C8C",
+        category: "Lens Protocol - Framer Motion - Next.js - TailwindCSS",
+        color: "#B19470",
         
       },
       {
@@ -53,7 +53,7 @@ export const projectsData = [
         image: Work3,
         title: "DEVTA DAO",
         category: "Web3",
-        color: "#EFE8D3",
+        color: "#5F8670",
         link: "https://devta-dao.vercel.app/"
       },
       {
@@ -61,7 +61,7 @@ export const projectsData = [
         image: Work4,
         title: "AI-Image-Generating",
         category: "Fullstack",
-        color: "#000000",
+        color: "#CD8D7A",
         link: "https://ai-image-generation-app.netlify.app/"
       },
       {
@@ -69,7 +69,7 @@ export const projectsData = [
         image: Work5,
         title: "Memory Game",
         category: "Frontend",
-        color: "#8C8C8C",
+        color: "#527853",
         link: "https://memory-game-app-react.netlify.app/"
       },
       {
@@ -77,7 +77,7 @@ export const projectsData = [
         image: Work6,
         title: "Modern App",
         category: "Frontend",
-        color: "#EFE8D3",
+        color: "#B0A695",
         link: "https://modern-ui-app-react.netlify.app/"
       },
 ]
@@ -87,7 +87,7 @@ export default function Projects() {
   const [modal, setModal] = useState({ active: false, index: 0 })
 
   return (
-    <main className={styles.main}>
+    <main id="Projects" className={styles.main}>
       <div className={styles.body}>
         <h1>PROJECTS</h1>
         {projectsData.map((project, index) => {

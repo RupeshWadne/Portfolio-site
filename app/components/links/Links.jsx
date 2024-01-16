@@ -16,8 +16,8 @@ export default function Links() {
     {
       title1: "Smart",
       title2: "Tweets",
-      src: "twitterx.png",
-      link: "https://twitter.com/rupesh_wadne_"
+      src: "twitter.png",
+      link: "https://twitter.com/sala_techie"
     },
     {
       title1: "Rate My",
@@ -46,9 +46,8 @@ export default function Links() {
   ]
 
   return (
-    <main className={styles.main}>
+    <main id="Contact" className={styles.main}>
       <div className={styles.gallery}>
-        <p>Find me and my work here</p>
           {
             projects.map( project => {
               return <Project key={project.title2} project={project}/>
@@ -58,6 +57,7 @@ export default function Links() {
     </main>
   )
 }
+
 
 function Project({project}) {
 

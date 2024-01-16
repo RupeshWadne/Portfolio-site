@@ -1,7 +1,7 @@
 import styles from './Skills.module.scss'
 import gsap from 'gsap'
 
-const projects = [
+const skills = [
   {
     title: 'HTML & CSS',
     color: '#F06318',
@@ -48,7 +48,7 @@ export default function Skills() {
   const manageMouseEnter = (e, index) => {
     gsap.to(e.target, {
       top: '-2vw',
-      backgroundColor: projects[index].color,
+      backgroundColor: skills[index].color,
       duration: 0.3,
     })
   }
@@ -61,11 +61,12 @@ export default function Skills() {
       delay: 0.1,
     })
   }
+
   return (
-    <div className={styles.container}>
+    <div id="Skills" className={styles.container}>
       <div className={styles.projectContainer}>
         <p className={styles.sub}>My Tools and Skills</p>
-        {projects.map((project, index) => {
+        {skills.map((project, index) => {
           return (
             <div
               onMouseEnter={(e) => {

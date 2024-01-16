@@ -1,7 +1,7 @@
 .gallery{
     height: 175vh;
     overflow: hidden;
-    background: rgb(45, 45, 45);
+    background: #FFDDFF;
     .galleryWrapper{
         position: relative;
         top: -12.5vh;
@@ -35,7 +35,7 @@
                 height: 33%;
                 width: 100%;
                 position: relative;
-                border-radius: 1vw;
+                border-radius: 0vw;
                 overflow: hidden;
                 img{
                     object-fit: cover;

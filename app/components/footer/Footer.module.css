@@ -2,12 +2,13 @@
     display: flex;
     align-items: center;
     padding: 30px;
+    background: #161616;
+    color: white;
 }
 
 .heading {
     margin-right: 20px;
     font-size: x-large;
-    color: white;
 }
 
 .links {
@@ -21,4 +22,18 @@
     margin-right: 50px;
     filter: invert(100%);
     object-fit: cover;
+}
+
+@media only screen and (max-width: 320px) {
+    .footer{
+        width: 100vw;
+        flex-direction: column;
+    }
+    .heading{
+        font-size: larger;
+    }
+    .links {
+        display: flex;
+        margin-left: 20px;
+    }
 }

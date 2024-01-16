@@ -74,6 +74,7 @@ export default function Home() {
   )
 }
 
+
 const Column = ({ images, y }) => {
   return (
     <motion.div className={styles.column} style={{ y }}>

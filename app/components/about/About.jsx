@@ -5,13 +5,14 @@ import Links from '../links/Links'
 import { motion } from 'framer-motion'
 import useMousePosition from '../../hooks/useMousePosition'
 
+
 export default function Home() {
   const [isHovered, setIsHovered] = useState(false)
   const { x, y } = useMousePosition()
   const size = isHovered ? 400 : 40
 
   return (
-    <div>
+    <div id="About">
     <main className={styles.main}>
       <motion.div
         className={styles.mask}
