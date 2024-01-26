@@ -33,11 +33,7 @@ export default function Page() {
               
             </div>
           </div>
-          {/* <video autoPlay muted loop>
-
-            <source src="/pro/vid1.mp4" type="video/mp4"/>
-
-          </video> */}
+          <iframe style={{width: "100vw", height: "80vh"}} src="https://www.youtube.com/embed/A0ZZaKCNPZg?si=2xuQKXojLGZuBRHn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           
           <Texts phrase={phrase2} />
           
