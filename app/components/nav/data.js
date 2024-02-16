@@ -23,18 +23,18 @@ export const links = [
 export const footerLinks = [
     {
         title: "Github",
-        href: "/"
+        href: "https://github.com/RupeshWadne"
     },
     {
         title: "LinkedIn",
-        href: "/"
+        href: "https://www.linkedin.com/in/rupesh-wadne/"
     },
     {
         title: "Instagram",
-        href: "/"
+        href: "https://www.instagram.com/rupesh_wadne_/"
     },
     {
         title: "Twitter",
-        href: "/"
+        href: "https://twitter.com/sala_techie"
     }
 ]

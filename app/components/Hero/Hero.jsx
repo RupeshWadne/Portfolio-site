@@ -24,17 +24,17 @@ export default function Hero() {
 
   return (
     <main id="Home" className={styles.main}>
-      <div className="bg-black w-screen lg:h-[7vh] h-[8vh] fixed z-50">
-        <div className="border-2 border-gray-900 left-0 top-0 fixed w-[30vw] lg:w-[24vw] bg-white z-50 h-16 flex flex-row justify-between lg:px-6 m-4 rounded-[50px] shadow-[3px_3px_0px_0px_#000]">
+      <div className="bg-black w-screen xl:h-[7vh] h-[8vh] fixed z-50">
+        <div className="border-2 border-gray-900 left-0 top-0 fixed w-[30vw] md:w-[32vw] lg:w-[24vw] bg-white z-50 h-16 flex flex-row justify-between lg:px-6 m-4 rounded-[50px] shadow-[3px_3px_0px_0px_#000]">
           <div className="p-2 flex flex-row relative">
             <div className={styles.burst}></div>
-            <p className="lg:text-4xl text-sm ml-2 mt-1 lg:ml-0">Rupesh Wadne.</p>
+            <p className="xl:text-3xl md:text-2xl lg:text-xl text-sm ml-2 mt-1 lg:ml-0">Rupesh Wadne.</p>
           </div>
         </div>
       </div>
 
       <div className={styles.container}>
-        <div className="w-full lg:p-7 p-2 items-center flex flex-col text-8xl font-bold lg:gap-14 gap-4">
+        <div className="w-full xl:p-7 p-2 items-center flex flex-col lg:text-5xl xl:text-8xl text-8xl font-bold lg:gap-14 gap-4">
           <div className="flex items-center justify-center">
             <h1 className="">Web3</h1>
             <Image

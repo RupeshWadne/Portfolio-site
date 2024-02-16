@@ -34,6 +34,8 @@ export default function index() {
 
           return (
             <motion.a
+              target="_blank"
+              href={href}
               variants={slideIn}
               custom={i}
               initial="initial"
